@@ -5,6 +5,7 @@ const flipout = require('flipout');
 class StrangerThingsService {
   constructor(repository) {
     this.repository = repository;
+    
   }
 
   search({ page, size, ...params }, upsideDownMode) {
